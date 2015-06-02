@@ -1,0 +1,441 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------------------------------header(begin)*/
+
+/*--------------------------------------------navbar*/
+.navbar.navbar-default{  
+    background-color: #fff; 
+    border-style:none;
+}
+.navbar-default{ 
+    padding:30px 0 0 0;
+}
+/*-----------------------------------------------------------navbar end*/
+
+/*----------------------------------------------------------*/
+.navbar-default .navbar-brand{
+    font: 36px "Open Sans", Light; 
+    color:#f25f5b; padding:0 0 0 15px;
+}
+.navbar-default .navbar-brand:hover {
+    color:#f25f5b;
+}
+.navbar-brand span{ 
+    color:#b7bcc9;
+}
+/*--------------------------------------------------------------- лого*/
+
+/*--------------------------------------------------------------------- кнопки*/
+.navbar-collapse ul{
+    font: 14px "Open Sans", Regular;
+}
+.navbar-collapse ul.nav li.active a{  
+    border-radius: 5px; 
+    background-color: brown; 
+    color: #fff;
+}
+.navbar-collapse ul.nav li.active a:hover{  
+    border-radius: 5px; 
+    background-color: brown; 
+    color: #fff;
+}
+
+.navbar-collapse ul.nav li{
+    padding:0 5px 0 0;
+}
+.navbar-collapse ul.nav li:hover{  
+    border-radius: 5px; 
+    background-color: brown;
+}
+.navbar-collapse ul.navbar-nav li:hover a, .navbar-collapse ul.navbar-nav li:focus a, .navbar-collapse ul.navbar-nav li:active a{
+    color: #fff;
+}
+.navbar-nav{
+	float:left; padding:0 0 0 260px;
+
+}
+.search-side{
+	float:right;
+	width:210px;
+	height:30px;
+	margin-top:10px; 
+
+}
+.fa-search{
+	color:#c9c9c9;
+	font-size:20px;
+	float:left;
+	margin-left:5px;
+	margin-top:4px;
+}
+.search-form{
+	display:none;
+	float:right;
+	width:160px;
+	margin-top:3px;
+}
+.search-form form.searchform{
+	float:right;	
+}
+.search-form form.searchform input.search-text{
+	border-style:none;
+}
+
+/*----------------------------------------------------------------------кнопки (end)*/
+
+/*-----------------------------------------------------------------dropdown(begin)*/
+.navbar-default .navbar-nav > li> ul.dropdown {
+  visibility:hidden;
+  opacity: 0;
+}
+.navbar-default .navbar-nav > li:hover> ul.dropdown {
+  visibility:visible;
+  opacity: 1;
+}
+.navbar-nav .dropdown{
+	/*margin-top:20px;*/
+  position: absolute;
+  left: 0;
+  width: 210px;
+  background-color: #fff;
+  border:1px solid; 
+  border-color:#999; 
+  border-radius:3px;
+  visibility: hidden;
+}
+.navbar-nav li ul{
+	list-style:none;
+}
+.navbar-nav li ul.dropdown{
+	z-index:100;
+}
+.navbar-nav li ul.dropdown li{
+	line-height:3;
+	vertical-align:central;
+	margin-left:-40px;
+	border-bottom:1px solid #c9c9c9;
+}
+.navbar-nav li ul.dropdown li:hover{
+	background-color:#FFF;
+}
+.navbar-nav li ul.dropdown li.dropdown-header{
+	font: 14px "Open Sans", Light;
+	line-height:3;
+	vertical-align:central;
+	border-bottom:1px solid #c9c9c9;
+}
+.navbar-nav li ul.dropdown li.dropdown-header p{
+	margin-left:12px;
+}
+.navbar-collapse ul.navbar-nav li ul.dropdown li a{
+	color:#000;
+	font: 14px "Open Sans", Light;
+	margin:15px 0 0 10px; 
+}
+.navbar-collapse ul.navbar-nav li ul.dropdown li:hover a{
+	color:#F00; 
+	text-decoration:none;	
+	margin-left:12px;
+	transition:all 0.2s ease-in-out;
+}
+/*-----------------------------------------------dropdown(end)*/
+/*---------------------------------------------------------header(end)*/
+
+
+.main_slaider{
+	width:100%;
+	height:620px;
+	background-color:#475168;
+}
+
+
+
+/*-------------------------------------------wel_to_flat(begin)*/
+.zah_flat{
+	margin-top:95px;
+	margin-bottom:90px;
+}
+.zah_flat h1{
+	font:32px "Fjalla One", Regular;
+	color:#475168;
+}
+.zah_flat h3{
+	font:20px "Open Sans", Light;
+	color:#8a8b8b;
+}
+
+
+
+.blok_boot .wel_boot .wel_boot_data .row>a>i.fa{
+	color:#f77b6f;
+	font-size:45px;
+	line-height:1.3;
+}
+.blok_boot .active_wel_boot .wel_boot_data .row>a>i.fa-code{
+	color:#FFF;
+}
+.blok_boot .wel_boot{
+	height:220px;
+	margin-bottom:3px;
+	width:100%;
+	background-color:#f4f4f4;
+	border:1px solid;
+	border-color:#f4f4f4;
+	border-radius:10px;
+}
+.blok_boot .wel_boot .wel_boot_data{
+	text-align:center;
+	margin-top:55px;
+}
+.blok_boot .wel_boot .wel_boot_data a{
+	font:20px "Fjalla One", Regular;
+	color:#475168;
+	text-decoration:none;
+}
+.blok_boot .active_wel_boot{
+	background-color:#f77b6f;
+}
+.blok_boot .active_wel_boot .row a{
+	color:#FFF;
+}
+
+
+.blok_boot .wel_boot:hover{
+	background-color:#f77b6f;
+}
+.blok_boot .wel_boot:hover .row a, .blok_boot .wel_boot:hover .row a>i.fa, .blok_boot .wel_boot:hover .row a>i.fa-code{
+	color:#FFF;
+}
+
+
+.bloks_data{
+	margin-bottom:70px;
+}
+.bloks_data .bloks_data_blok p{
+	font:14px "Open Sans", Regular;
+	color:#606060;
+	text-align:left;
+}
+
+/*-------------------------------------------btn_friendly_code_1(begin)*/
+.row_friendly_code{
+	margin-bottom:80px;
+}
+.btn_friendly_code_1 button.btn-primary{
+	margin-top:5px;
+	margin-left:-12px;
+	width:100%;
+	height:90px;
+	background-color:#475168;
+	border-color:#3f4b67;
+	text-align:left;
+	font:20px "Fjalla One", Regular;
+}
+.btn_friendly_code_1 button.btn-primary span{
+	font:13px "Open Sans", Regular;
+	color:#9eb3c4;
+}
+.btn_friendly_code_2 button.btn-danger{
+	margin-top:5px;
+	width:100%;
+	height:90px;
+	background-color:#f77b6f;
+	border-color:#ff8376;
+	font:20px "Fjalla One", Regular;
+}
+
+.btn_friendly_code_1 button.btn-primary:hover, .btn_friendly_code_1 button.btn-primary:active, .btn_friendly_code_1 button.btn-primary:focus{
+	background-color:#3a445d;
+	border-color:#414c66;
+}
+.btn_friendly_code_2 button.btn-danger:hover, .btn_friendly_code_2 button.btn-danger:active, .btn_friendly_code_2 button.btn-danger:focus{
+	background-color:#ed7064;
+	border-color:#f37468;
+}
+/*--------------------------------------btn_friendly_code_1(end)*/
+/*-----------------------------------------------wel_to_flat(end)*/
+
+
+/*-------------------------------------------gray_block(begin)*/
+.gray_block{
+	background-color:#f4f4f4;
+}
+.gray_block .inset{
+	padding-top:130px;
+	padding-bottom:130px;
+}
+.gray_col_2 .gray_title{
+	padding-bottom:20px;
+}
+.gray_col_2 .gray_title h1{
+	font:28px "Fjalla One", Regular;
+	color:#475168;
+}
+.gray_col_2 .gray_text{
+	padding-bottom:30px;
+}
+.gray_col_2 .gray_text p{
+	font:13px "Open Sans", Regular;
+	color:#606060;
+}
+
+.gray_button_col button.btn-primary{
+	width:200px;
+	height:50px;
+	background-color:#475168;
+	border-color:#3f4b67;
+	font:15px "Open Sans", Regular;
+}
+.gray_button_col button.btn-primary:hover, .gray_button_col button.btn-primary:active, .gray_button_col button.btn-primary:focus{
+	background-color:#f77b6f;
+	border-color:#ff8376;
+}
+/*-----------------------------------------------gray_block(end)*/
+
+
+
+/*-------------------------------------------port_show(begin)*/
+
+.port_show .container{
+	padding-top:40px;
+	padding-bottom:50px
+}
+
+
+.port_show .container .port_zah1{
+	padding-bottom:50px;
+}
+.port_show .port_zah1 h1{
+	font:28px "Fjalla One", Regular;
+	color:#475168;
+}
+
+
+/*---------------------------------------------port_show(end)*/
+
+
+
+/*-------------------------------------------parallax(begin)*/
+
+.parallax{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-position: 50% 30%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.red_fon{
+	background-color:#f77b6f;
+	position:absolute;
+	width:100%;
+	height:256px;
+	margin-top:0px;
+	left:0px;
+	z-index:-1;
+}
+/*.rid_line{
+	height:360px;
+}*/
+
+.zah_white_line h1{
+	font:24px "Fjalla One", Regular;
+	color:#FFF;
+	text-align:center;
+}
+.text_ptn p{
+	font:18px "Open Sans", Italic;
+	color:#FFF;
+	text-align:center;
+}
+.name_client_1{
+	font:14px "Open Sans", BouldItalic;
+	color:#FFF;
+	text-align:center;
+}
+/*-----------------------------------------------parallax(end)*/
+
+
+/*-------------------------------------------white_line(begin)*/
+.white_line .container{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+/*--------------------------------------------white_line(end)*/
+
+
+
+
+/*-------------------------------------------footer(begin)*/
+.footers{
+	background-color:#4b607f;
+	color:#FFF;
+}
+.footers .container{
+	padding-bottom:40px;
+}
+.zah1 h1{
+	font:24px "Swis721 BlkCn BT";
+}
+
+
+/*---------------------------------------стовпець №1(початок)*/
+.st1 p{
+	font:14px "Verdana", Reqular;
+}
+.st1 p a{
+	color:#ec6d6d;
+	font-size:13px;
+	text-decoration:none;
+}
+.st1 p a:hover{
+	text-decoration:underline;
+}
+/*---------------------------------------стовпець №1(кінець)*/
+
+
+/*---------------------------------------стовпець №2(початок)*/
+.riadok1_1{
+	background-color:#48586e;
+	border:1px solid;
+	border-color:#48586e;
+	border-radius:4px;
+}
+.images_twitter{
+	width:40px;
+	height:32px;
+	float:left;
+	margin-left:-10px;
+	margin-top:5px;
+}
+.p_st2 p{
+	font:11px "Verdana", Italic;
+	float:right;
+	margin-top:6px;
+}
+.p_st2 p a:hover{
+	color:#337ab7;
+	text-decoration:underline;
+}
+/*---------------------------------------стовпець №2(кінець)*/
+
+/*---------------------------------------стовпець №3(початок)*/
+.kvadrat{
+	background-color:#48586e;
+	height:43px;
+}
+.kvadrat:hover{
+	background-color:#ec6d6d;
+}
+
+.ico_footer{
+	margin-top:10px;
+}
+
+
+.riadok2_2{
+	margin-top:10px;
+}
+/*---------------------------------------стовпець №3(кінець)*/
+/*--------------------------------------------footer(end)*/
